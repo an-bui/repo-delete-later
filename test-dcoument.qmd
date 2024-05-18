@@ -1,0 +1,13 @@
+---
+title: "test document for video"
+author: "An Bui"
+format: html
+---
+
+```{r}
+library(tidyverse)
+library(lterdatasampler)
+data(pie_crab)
+```
+
+
