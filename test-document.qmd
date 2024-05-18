@@ -10,4 +10,11 @@ library(lterdatasampler)
 data(pie_crab)
 ```
 
+```{r}
+ggplot(data = pie_crab,
+       aes(x = latitude,
+           y = size)) +
+  geom_point()
+```
+
 
